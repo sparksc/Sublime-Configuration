@@ -28,6 +28,7 @@ Current configuration of Sublime Text packages and themes.
 ### JavaScript
 
  - [Java​Script Ultimate](https://packagecontrol.io/packages/JavaScript%20Ultimate): Perfect JavaScript syntax
+ - [Babel](https://packagecontrol.io/packages/Babel):React JSX & ES6 syntax support
 
 ----------
 
@@ -37,6 +38,7 @@ Current configuration of Sublime Text packages and themes.
 
  - [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete): Extends Sublime auto-completion feature
  - [Apply​Syntax](https://packagecontrol.io/packages/ApplySyntax): Syntax detector
+ - [Icon Fonts](https://packagecontrol.io/packages/Icon%20Fonts): Font Awesome snippets
 
 ----------
 
@@ -48,6 +50,7 @@ Current configuration of Sublime Text packages and themes.
  - [Keyboard​Spell​Check](https://packagecontrol.io/packages/KeyboardSpellCheck): Spell-checking
  - [Elastic​Tabstops](https://packagecontrol.io/packages/ElasticTabstops):  Tab characters automatically
  - [Auto​File​Name](https://packagecontrol.io/packages/AutoFileName): Autocompletes filenames 
+ - [MarkdownLivePreview](https://packagecontrol.io/packages/MarkdownLivePreview): Live preview of markdown files
 
 ----------
 
@@ -72,6 +75,7 @@ Current configuration of Sublime Text packages and themes.
 
 ## Look & Feel 
 ### Themes
+ - [Oceanic Next Color Scheme](https://packagecontrol.io/packages/Oceanic%20Next%20Color%20Scheme): Works well with Babel package
  - [Theme - Glacier](https://packagecontrol.io/packages/Theme%20-%20Glacier)
  - [Seti_UI](https://packagecontrol.io/packages/Seti_UI)
  - [Agila Theme](https://packagecontrol.io/packages/Agila%20Theme)
@@ -83,6 +87,7 @@ Current configuration of Sublime Text packages and themes.
 
 
 ### Other
+ - [zzFile Icons](https://packagecontrol.io/packages/zz%20File%20Icons): Displays file icons in the sidebar
  - [Sidebar Enhancements](https://packagecontrol.io/packages/SideBarEnhancements): enhancements to the Sidebar for Files and Folders options
  - [Table of comments](https://packagecontrol.io/packages/Table%20of%20comments): Organize and quick-jump between headings in comments
 
@@ -90,7 +95,7 @@ Current configuration of Sublime Text packages and themes.
 
 
 
-## Preferences.sublime-settings
+## Preferences.sublime-settings for Seti UI Theme with Glacier Color Scheme
 
     {
 		"Seti_SB_bright": true,
@@ -110,6 +115,8 @@ Current configuration of Sublime Text packages and themes.
 		"caret_extra_bottom": 3,
 		"caret_extra_top": 3,
 		"caret_extra_width": 2,
+		"font_face": "Consolas",
+		"font_size": 10,
 		"color_scheme": "Packages/Theme - Glacier/glacier.tmTheme",
 		"highlight_line": true,
 		"ignored_packages":
@@ -118,6 +125,21 @@ Current configuration of Sublime Text packages and themes.
 		],
 		"spell_check": true,
 		"theme": "Seti_orig.sublime-theme"
+	}
+	
+
+## Preferences.sublime-settings for Oceanic Next Theme
+	{
+		"color_scheme": "Packages/Oceanic Next Color Scheme/Oceanic Next.tmTheme",
+		"font_face": "Consolas",
+		"font_size": 10,
+		"highlight_line": true,
+		"ignored_packages":
+		[
+			"Vintage"
+		],
+		"line_padding_bottom": 1,
+		"theme": "Oceanic Next.sublime-theme"
 	}
 
 
